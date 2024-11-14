@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="all" />
+    <link rel="canonical" href="https://example.com/your-page-url" />
+    <link type="image/x-icon" href="./images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>My project</title>
+  </head>
+  <body>
+    <div class="mobile-menu" id="menu">
+      <ul class="mobile-menu__menu">
+        <li class="mobile-menu__menu-item"><a class="mobile-menu__menu-link" href="#">Review</a></li>
+        <li class="mobile-menu__menu-item"><a class="mobile-menu__menu-link" href="#">Bonus</a></li>
+        <li class="mobile-menu__menu-item"><a class="mobile-menu__menu-link" href="#">Bonus Code</a></li>
+        <li class="mobile-menu__menu-item"><a class="mobile-menu__menu-link" href="#">Application</a></li>
+      </ul>
+    </div>
+    <header class="header">
+      <div class="container container_header">
+        <div class="header__burger" id="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="header__logo-part">
+          <img class="header__logo-img" src="./images/logo.svg" alt="logo" />
+        </div>
+        <ul class="header__links">
+          <li class="header__link-item"><a class="header__link" href="#">Review</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Bonus</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Bonus Code</a></li>
+          <li class="header__link-item"><a class="header__link" href="#">Application</a></li>
+        </ul>
+        <div class="header__login-part">
+          <button class="header__btn">Log in</button>
+          <button class="header__btn header__btn_signup">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <form id="contactForm">
+      <h2>Support</h2>
+      <label for="email"
+        >You have a question? Can't find the answer on the website? Don't worry! you can contact our 24-hour online customer support any time, Our
+        customer support team is happy to answer any of your questions.</label
+      >
+      <input type="email" id="email" name="email" placeholder="Ваш email" required />
+      <button type="submit" class="main-button">Отправить</button>
+      <div class="success-message" id="successMessage" style="display: none">We will answer you soon</div>
+    </form>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__links-list">
+          <li class="footer__link-item">
+            <a class="footer__link" href="">Contact</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="https://kinghills.com/responsible-gaming">Responsible Gaming</a>
+          </li>
+          <li class="footer__link-item">
+            <a class="footer__link" href="https://kinghills.com/terms">Terms & Conditions</a>
+          </li>
+          <li class="footer__link-item"><a class="footer__link" href="https://kinghills.com/terms">FAQ</a></li>
+        </ul>
+        <p class="footer__copyright">Copyright © 2024 kinghills.</p>
+      </div>
+      <div class="footer__images">
+        <div class="footer__images-wrapper">
+          <img src="./images/foot1.svg" alt="logo" />
+        </div>
+        <div class="footer__images-wrapper">
+          <img src="./images/foot2.svg" alt="logo" />
+        </div>
+        <div class="footer__images-wrapper">
+          <img src="./images/foot3.svg" alt="logo" />
+        </div>
+        <div class="footer__images-wrapper">
+          <img src="./images/foot4.svg" alt="logo" />
+        </div>
+        <div class="footer__images-wrapper">
+          <img src="./images/foot5.svg" alt="logo" />
+        </div>
+        <div class="footer__images-wrapper">
+          <img src="./images/foot6.svg" alt="logo" />
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>

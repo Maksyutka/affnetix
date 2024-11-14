@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.html,
+body {
+  min-width: 390px;
+  overflow-x: hidden;
+}
